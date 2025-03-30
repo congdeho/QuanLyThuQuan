@@ -56,3 +56,4 @@ D:\Study\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.genruntimeconfig.c
 D:\Study\QuanLyThuQuan\obj\Debug\net8.0-windows\ref\QuanLyThuQuan.dll
 D:\Study\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.AddDeviceForm.resources
 D:\Study\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.UpdateDeviceForm.resources
+D:\Study\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.AddLoanForm.resources

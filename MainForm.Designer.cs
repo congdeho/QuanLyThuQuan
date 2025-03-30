@@ -53,34 +53,34 @@
             label10 = new Label();
             label9 = new Label();
             tabPage1 = new TabPage();
-            groupBox1 = new GroupBox();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            button1 = new Button();
-            label8 = new Label();
+            button11 = new Button();
+            panel4 = new Panel();
+            textBox7 = new TextBox();
+            label39 = new Label();
+            label40 = new Label();
+            label41 = new Label();
+            label42 = new Label();
+            pictureBox3 = new PictureBox();
+            label43 = new Label();
             listView2 = new ListView();
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
+            columnHeader5 = new ColumnHeader();
             label18 = new Label();
             comboBox1 = new ComboBox();
             textBox3 = new TextBox();
             label19 = new Label();
             label20 = new Label();
             label21 = new Label();
-            columnHeader5 = new ColumnHeader();
             tabPage2 = new TabPage();
-            label22 = new Label();
             button5 = new Button();
             button6 = new Button();
             panel2 = new Panel();
+            label23 = new Label();
             button7 = new Button();
             button8 = new Button();
             textBox4 = new TextBox();
+            label24 = new Label();
             label25 = new Label();
             label26 = new Label();
             pictureBox2 = new PictureBox();
@@ -91,9 +91,21 @@
             label28 = new Label();
             textBox5 = new TextBox();
             label30 = new Label();
-            label24 = new Label();
-            label23 = new Label();
+            label22 = new Label();
             tabPage3 = new TabPage();
+            dateTimePicker1 = new DateTimePicker();
+            panel3 = new Panel();
+            listView5 = new ListView();
+            columnHeader11 = new ColumnHeader();
+            columnHeader12 = new ColumnHeader();
+            label37 = new Label();
+            label35 = new Label();
+            button9 = new Button();
+            button10 = new Button();
+            label36 = new Label();
+            label38 = new Label();
+            label34 = new Label();
+            label33 = new Label();
             listView4 = new ListView();
             columnHeader8 = new ColumnHeader();
             columnHeader9 = new ColumnHeader();
@@ -102,41 +114,29 @@
             textBox6 = new TextBox();
             label31 = new Label();
             label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            panel3 = new Panel();
-            label35 = new Label();
-            button9 = new Button();
-            button10 = new Button();
-            label36 = new Label();
-            label38 = new Label();
-            label37 = new Label();
-            listView5 = new ListView();
-            columnHeader11 = new ColumnHeader();
-            columnHeader12 = new ColumnHeader();
-            dateTimePicker1 = new DateTimePicker();
-            panel4 = new Panel();
-            textBox7 = new TextBox();
-            label39 = new Label();
-            label40 = new Label();
-            label41 = new Label();
-            label42 = new Label();
-            pictureBox3 = new PictureBox();
-            label43 = new Label();
-            button11 = new Button();
+            groupBox1 = new GroupBox();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            button1 = new Button();
+            label8 = new Label();
             tabControl1.SuspendLayout();
             tabPage6.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabPage1.SuspendLayout();
-            groupBox1.SuspendLayout();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             tabPage2.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             tabPage3.SuspendLayout();
             panel3.SuspendLayout();
-            panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -422,6 +422,646 @@
             tabPage1.Text = "Mượn thiết bị";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button11
+            // 
+            button11.BackColor = Color.Cyan;
+            button11.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button11.Location = new Point(753, 137);
+            button11.Name = "button11";
+            button11.Size = new Size(220, 62);
+            button11.TabIndex = 17;
+            button11.Text = "Lập phíu mựn";
+            button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Gainsboro;
+            panel4.Controls.Add(textBox7);
+            panel4.Controls.Add(label39);
+            panel4.Controls.Add(label40);
+            panel4.Controls.Add(label41);
+            panel4.Controls.Add(label42);
+            panel4.Controls.Add(pictureBox3);
+            panel4.Location = new Point(621, 436);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(362, 313);
+            panel4.TabIndex = 15;
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = SystemColors.ControlLightLight;
+            textBox7.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox7.Location = new Point(13, 177);
+            textBox7.Multiline = true;
+            textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
+            textBox7.Size = new Size(337, 107);
+            textBox7.TabIndex = 13;
+            textBox7.Text = "Sách là sách, không có gì ngoài sách.";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Font = new Font("Arial", 13F);
+            label39.Location = new Point(142, 125);
+            label39.Name = "label39";
+            label39.Size = new Size(210, 25);
+            label39.TabIndex = 12;
+            label39.Text = "Tình trạng: Khả dụng";
+            label39.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Font = new Font("Arial", 13F);
+            label40.Location = new Point(142, 94);
+            label40.Name = "label40";
+            label40.Size = new Size(188, 25);
+            label40.TabIndex = 11;
+            label40.Text = "Loại: Sách điện tử";
+            label40.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Font = new Font("Arial", 13F);
+            label41.Location = new Point(142, 61);
+            label41.Name = "label41";
+            label41.Size = new Size(156, 25);
+            label41.TabIndex = 10;
+            label41.Text = "Tên: Sách Gây";
+            label41.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Font = new Font("Arial", 13F);
+            label42.Location = new Point(142, 30);
+            label42.Name = "label42";
+            label42.Size = new Size(91, 25);
+            label42.TabIndex = 9;
+            label42.Text = "Mã: 001";
+            label42.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.e9420e4b3ffb752eafd43b429f1ab447_1498730592;
+            pictureBox3.Location = new Point(13, 30);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(120, 120);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 0;
+            pictureBox3.TabStop = false;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Font = new Font("Arial", 20F);
+            label43.Location = new Point(694, 351);
+            label43.Name = "label43";
+            label43.Size = new Size(225, 39);
+            label43.TabIndex = 14;
+            label43.Text = "Chi tiết thiết bị";
+            label43.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // listView2
+            // 
+            listView2.Columns.AddRange(new ColumnHeader[] { columnHeader3, columnHeader4, columnHeader5 });
+            listView2.Font = new Font("Arial", 13F, FontStyle.Bold);
+            listView2.Location = new Point(48, 436);
+            listView2.Name = "listView2";
+            listView2.Size = new Size(524, 313);
+            listView2.TabIndex = 13;
+            listView2.UseCompatibleStateImageBehavior = false;
+            listView2.View = View.Details;
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "Mã thiết bị";
+            columnHeader3.Width = 120;
+            // 
+            // columnHeader4
+            // 
+            columnHeader4.Text = "";
+            columnHeader4.Width = 100;
+            // 
+            // columnHeader5
+            // 
+            columnHeader5.Text = "Tên thiết bị";
+            columnHeader5.Width = 300;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Arial", 20F);
+            label18.Location = new Point(78, 351);
+            label18.Name = "label18";
+            label18.Size = new Size(430, 39);
+            label18.TabIndex = 12;
+            label18.Text = "Danh sách thiết bị khả dụng";
+            label18.TextAlign = ContentAlignment.MiddleCenter;
+            label18.Click += label18_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Chọn ấy đi mẹ", "Sách", "Máy tính bảng", "Tài liệu điện tử", "Máy tính cầm tay" });
+            comboBox1.Location = new Point(248, 210);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(271, 40);
+            comboBox1.TabIndex = 11;
+            // 
+            // textBox3
+            // 
+            textBox3.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(248, 133);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(260, 39);
+            textBox3.TabIndex = 10;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Arial", 18F);
+            label19.Location = new Point(48, 211);
+            label19.Name = "label19";
+            label19.Size = new Size(175, 35);
+            label19.TabIndex = 9;
+            label19.Text = "Loại thiết bị:";
+            label19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Arial", 18F);
+            label20.Location = new Point(48, 137);
+            label20.Name = "label20";
+            label20.Size = new Size(154, 35);
+            label20.TabIndex = 8;
+            label20.Text = "Tìm kiếm: ";
+            label20.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label21.Location = new Point(310, 36);
+            label21.Name = "label21";
+            label21.Size = new Size(429, 47);
+            label21.TabIndex = 7;
+            label21.Text = "Quản lý mượn thiết bị";
+            label21.TextAlign = ContentAlignment.MiddleCenter;
+            label21.Click += label21_Click;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Controls.Add(button5);
+            tabPage2.Controls.Add(button6);
+            tabPage2.Controls.Add(panel2);
+            tabPage2.Controls.Add(label27);
+            tabPage2.Controls.Add(listView3);
+            tabPage2.Controls.Add(label28);
+            tabPage2.Controls.Add(textBox5);
+            tabPage2.Controls.Add(label30);
+            tabPage2.Controls.Add(label22);
+            tabPage2.Location = new Point(4, 29);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(1006, 782);
+            tabPage2.TabIndex = 7;
+            tabPage2.Text = "Quản lý thành viên";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Cyan;
+            button5.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.Location = new Point(749, 131);
+            button5.Name = "button5";
+            button5.Size = new Size(220, 62);
+            button5.TabIndex = 25;
+            button5.Text = "+ Thành viên";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.Cyan;
+            button6.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.Location = new Point(749, 135);
+            button6.Name = "button6";
+            button6.Size = new Size(220, 62);
+            button6.TabIndex = 26;
+            button6.Text = "+ Thiết bị mới";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Gainsboro;
+            panel2.Controls.Add(label23);
+            panel2.Controls.Add(button7);
+            panel2.Controls.Add(button8);
+            panel2.Controls.Add(textBox4);
+            panel2.Controls.Add(label24);
+            panel2.Controls.Add(label25);
+            panel2.Controls.Add(label26);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Location = new Point(570, 328);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(400, 370);
+            panel2.TabIndex = 24;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Arial", 13F);
+            label23.Location = new Point(142, 125);
+            label23.Name = "label23";
+            label23.Size = new Size(84, 25);
+            label23.TabIndex = 16;
+            label23.Text = "Địa chỉ:";
+            label23.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.Crimson;
+            button7.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button7.ForeColor = SystemColors.ControlLightLight;
+            button7.Location = new Point(243, 302);
+            button7.Name = "button7";
+            button7.Size = new Size(151, 42);
+            button7.TabIndex = 15;
+            button7.Text = "Khóa";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.PaleGreen;
+            button8.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button8.Location = new Point(20, 302);
+            button8.Name = "button8";
+            button8.Size = new Size(151, 42);
+            button8.TabIndex = 14;
+            button8.Text = "Cập nhật";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = SystemColors.ControlLight;
+            textBox4.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.ForeColor = SystemColors.ActiveCaptionText;
+            textBox4.Location = new Point(142, 160);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
+            textBox4.Size = new Size(252, 54);
+            textBox4.TabIndex = 13;
+            textBox4.Text = "Địa chỉ: 273 Ương Dan Van, P5, Q3, TP.HCM";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Arial", 13F);
+            label24.Location = new Point(142, 94);
+            label24.Name = "label24";
+            label24.Size = new Size(227, 25);
+            label24.TabIndex = 11;
+            label24.Text = "Ngày sinh: 30/03/2005";
+            label24.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Arial", 13F);
+            label25.Location = new Point(142, 61);
+            label25.Name = "label25";
+            label25.Size = new Size(181, 25);
+            label25.TabIndex = 10;
+            label25.Text = "Tên: Mei xinh gái ";
+            label25.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("Arial", 13F);
+            label26.Location = new Point(142, 30);
+            label26.Name = "label26";
+            label26.Size = new Size(91, 25);
+            label26.TabIndex = 9;
+            label26.Text = "Mã: 001";
+            label26.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(13, 30);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(120, 120);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Arial", 20F);
+            label27.Location = new Point(600, 243);
+            label27.Name = "label27";
+            label27.Size = new Size(322, 39);
+            label27.TabIndex = 23;
+            label27.Text = "Thông tin thành viên";
+            label27.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // listView3
+            // 
+            listView3.Columns.AddRange(new ColumnHeader[] { columnHeader6, columnHeader7 });
+            listView3.Font = new Font("Arial", 13F, FontStyle.Bold);
+            listView3.Location = new Point(42, 328);
+            listView3.Name = "listView3";
+            listView3.Size = new Size(425, 370);
+            listView3.TabIndex = 22;
+            listView3.UseCompatibleStateImageBehavior = false;
+            listView3.View = View.Details;
+            // 
+            // columnHeader6
+            // 
+            columnHeader6.Text = "Mã thành viên";
+            columnHeader6.Width = 170;
+            // 
+            // columnHeader7
+            // 
+            columnHeader7.Text = "Tên thành viên";
+            columnHeader7.Width = 300;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Font = new Font("Arial", 20F);
+            label28.Location = new Point(87, 243);
+            label28.Name = "label28";
+            label28.Size = new Size(344, 39);
+            label28.TabIndex = 21;
+            label28.Text = "Danh sách thành viên";
+            label28.TextAlign = ContentAlignment.MiddleCenter;
+            label28.Click += label28_Click;
+            // 
+            // textBox5
+            // 
+            textBox5.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox5.Location = new Point(247, 131);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(260, 39);
+            textBox5.TabIndex = 19;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Font = new Font("Arial", 18F);
+            label30.Location = new Point(47, 135);
+            label30.Name = "label30";
+            label30.Size = new Size(154, 35);
+            label30.TabIndex = 17;
+            label30.Text = "Tìm kiếm: ";
+            label30.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label22.Location = new Point(331, 36);
+            label22.Name = "label22";
+            label22.Size = new Size(372, 47);
+            label22.TabIndex = 8;
+            label22.Text = "Quản lý thành viên";
+            label22.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // tabPage3
+            // 
+            tabPage3.Controls.Add(dateTimePicker1);
+            tabPage3.Controls.Add(panel3);
+            tabPage3.Controls.Add(label34);
+            tabPage3.Controls.Add(label33);
+            tabPage3.Controls.Add(listView4);
+            tabPage3.Controls.Add(label29);
+            tabPage3.Controls.Add(textBox6);
+            tabPage3.Controls.Add(label31);
+            tabPage3.Controls.Add(label32);
+            tabPage3.Location = new Point(4, 29);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(1006, 782);
+            tabPage3.TabIndex = 8;
+            tabPage3.Text = "Quản lý trả thiết bị";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dateTimePicker1.Location = new Point(219, 211);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(409, 34);
+            dateTimePicker1.TabIndex = 26;
+            dateTimePicker1.UseWaitCursor = true;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Gainsboro;
+            panel3.Controls.Add(listView5);
+            panel3.Controls.Add(label37);
+            panel3.Controls.Add(label35);
+            panel3.Controls.Add(button9);
+            panel3.Controls.Add(button10);
+            panel3.Controls.Add(label36);
+            panel3.Controls.Add(label38);
+            panel3.Location = new Point(563, 356);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(420, 381);
+            panel3.TabIndex = 25;
+            // 
+            // listView5
+            // 
+            listView5.Columns.AddRange(new ColumnHeader[] { columnHeader11, columnHeader12 });
+            listView5.Font = new Font("Arial", 11F, FontStyle.Bold);
+            listView5.Location = new Point(16, 126);
+            listView5.Name = "listView5";
+            listView5.Size = new Size(390, 190);
+            listView5.TabIndex = 26;
+            listView5.UseCompatibleStateImageBehavior = false;
+            listView5.View = View.Details;
+            // 
+            // columnHeader11
+            // 
+            columnHeader11.Text = "Mã TB";
+            columnHeader11.Width = 120;
+            // 
+            // columnHeader12
+            // 
+            columnHeader12.Text = "Tên thiết bị";
+            columnHeader12.Width = 265;
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Font = new Font("Arial", 13F);
+            label37.Location = new Point(16, 86);
+            label37.Name = "label37";
+            label37.Size = new Size(292, 25);
+            label37.TabIndex = 17;
+            label37.Text = "Tên người mượn: Ấy data dô";
+            label37.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Font = new Font("Arial", 13F);
+            label35.Location = new Point(16, 51);
+            label35.Name = "label35";
+            label35.Size = new Size(218, 25);
+            label35.TabIndex = 16;
+            label35.Text = "Mã người mượn: 002";
+            label35.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.Crimson;
+            button9.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button9.ForeColor = SystemColors.ControlLightLight;
+            button9.Location = new Point(254, 320);
+            button9.Name = "button9";
+            button9.Size = new Size(151, 42);
+            button9.TabIndex = 15;
+            button9.Text = "Đóng";
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.PaleGreen;
+            button10.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button10.Location = new Point(16, 320);
+            button10.Name = "button10";
+            button10.Size = new Size(175, 42);
+            button10.TabIndex = 14;
+            button10.Text = "Xác nhận trả";
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Font = new Font("Arial", 13F);
+            label36.Location = new Point(142, 17);
+            label36.Name = "label36";
+            label36.Size = new Size(247, 25);
+            label36.TabIndex = 11;
+            label36.Text = "Ngày mượn: 30/03/2005";
+            label36.TextAlign = ContentAlignment.MiddleCenter;
+            label36.Click += label36_Click;
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Font = new Font("Arial", 13F);
+            label38.Location = new Point(16, 17);
+            label38.Name = "label38";
+            label38.Size = new Size(91, 25);
+            label38.TabIndex = 9;
+            label38.Text = "Mã: 001";
+            label38.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Font = new Font("Arial", 20F);
+            label34.Location = new Point(676, 287);
+            label34.Name = "label34";
+            label34.Size = new Size(220, 39);
+            label34.TabIndex = 20;
+            label34.Text = "Chi tiết mượn";
+            label34.TextAlign = ContentAlignment.MiddleCenter;
+            label34.Click += label34_Click;
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label33.Location = new Point(318, 49);
+            label33.Name = "label33";
+            label33.Size = new Size(363, 47);
+            label33.TabIndex = 19;
+            label33.Text = "Quản lý trả thiết bị";
+            label33.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // listView4
+            // 
+            listView4.Columns.AddRange(new ColumnHeader[] { columnHeader8, columnHeader9, columnHeader10 });
+            listView4.Font = new Font("Arial", 13F, FontStyle.Bold);
+            listView4.Location = new Point(19, 356);
+            listView4.Name = "listView4";
+            listView4.Size = new Size(504, 381);
+            listView4.TabIndex = 18;
+            listView4.UseCompatibleStateImageBehavior = false;
+            listView4.View = View.Details;
+            // 
+            // columnHeader8
+            // 
+            columnHeader8.Text = "Mã PM";
+            columnHeader8.Width = 100;
+            // 
+            // columnHeader9
+            // 
+            columnHeader9.Text = "Ngày mượn";
+            columnHeader9.Width = 150;
+            // 
+            // columnHeader10
+            // 
+            columnHeader10.Text = "Người mượn";
+            columnHeader10.Width = 250;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new Font("Arial", 20F);
+            label29.Location = new Point(97, 287);
+            label29.Name = "label29";
+            label29.Size = new Size(369, 39);
+            label29.TabIndex = 17;
+            label29.Text = "Danh sách phiếu mượn";
+            label29.TextAlign = ContentAlignment.MiddleCenter;
+            label29.Click += label29_Click;
+            // 
+            // textBox6
+            // 
+            textBox6.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox6.Location = new Point(219, 133);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(260, 39);
+            textBox6.TabIndex = 16;
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Font = new Font("Arial", 18F);
+            label31.Location = new Point(19, 211);
+            label31.Name = "label31";
+            label31.Size = new Size(184, 35);
+            label31.TabIndex = 15;
+            label31.Text = "Ngày mượn:";
+            label31.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Font = new Font("Arial", 18F);
+            label32.Location = new Point(19, 137);
+            label32.Name = "label32";
+            label32.Size = new Size(154, 35);
+            label32.TabIndex = 14;
+            label32.Text = "Tìm kiếm: ";
+            label32.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // groupBox1
             // 
             groupBox1.Controls.Add(label7);
@@ -527,645 +1167,6 @@
             label8.TabIndex = 2;
             label8.Text = "Ko biết vẽ gì ";
             // 
-            // listView2
-            // 
-            listView2.Columns.AddRange(new ColumnHeader[] { columnHeader3, columnHeader4, columnHeader5 });
-            listView2.Font = new Font("Arial", 13F, FontStyle.Bold);
-            listView2.Location = new Point(48, 436);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(524, 313);
-            listView2.TabIndex = 13;
-            listView2.UseCompatibleStateImageBehavior = false;
-            listView2.View = View.Details;
-            // 
-            // columnHeader3
-            // 
-            columnHeader3.Text = "Mã thiết bị";
-            columnHeader3.Width = 120;
-            // 
-            // columnHeader4
-            // 
-            columnHeader4.Text = "";
-            columnHeader4.Width = 100;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Font = new Font("Arial", 20F);
-            label18.Location = new Point(78, 351);
-            label18.Name = "label18";
-            label18.Size = new Size(430, 39);
-            label18.TabIndex = 12;
-            label18.Text = "Danh sách thiết bị khả dụng";
-            label18.TextAlign = ContentAlignment.MiddleCenter;
-            label18.Click += label18_Click;
-            // 
-            // comboBox1
-            // 
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Chọn ấy đi mẹ", "Sách", "Máy tính bảng", "Tài liệu điện tử", "Máy tính cầm tay" });
-            comboBox1.Location = new Point(248, 210);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(271, 40);
-            comboBox1.TabIndex = 11;
-            // 
-            // textBox3
-            // 
-            textBox3.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(248, 133);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(260, 39);
-            textBox3.TabIndex = 10;
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Font = new Font("Arial", 18F);
-            label19.Location = new Point(48, 211);
-            label19.Name = "label19";
-            label19.Size = new Size(175, 35);
-            label19.TabIndex = 9;
-            label19.Text = "Loại thiết bị:";
-            label19.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Font = new Font("Arial", 18F);
-            label20.Location = new Point(48, 137);
-            label20.Name = "label20";
-            label20.Size = new Size(154, 35);
-            label20.TabIndex = 8;
-            label20.Text = "Tìm kiếm: ";
-            label20.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(310, 36);
-            label21.Name = "label21";
-            label21.Size = new Size(429, 47);
-            label21.TabIndex = 7;
-            label21.Text = "Quản lý mượn thiết bị";
-            label21.TextAlign = ContentAlignment.MiddleCenter;
-            label21.Click += label21_Click;
-            // 
-            // columnHeader5
-            // 
-            columnHeader5.Text = "Tên thiết bị";
-            columnHeader5.Width = 300;
-            // 
-            // tabPage2
-            // 
-            tabPage2.Controls.Add(button5);
-            tabPage2.Controls.Add(button6);
-            tabPage2.Controls.Add(panel2);
-            tabPage2.Controls.Add(label27);
-            tabPage2.Controls.Add(listView3);
-            tabPage2.Controls.Add(label28);
-            tabPage2.Controls.Add(textBox5);
-            tabPage2.Controls.Add(label30);
-            tabPage2.Controls.Add(label22);
-            tabPage2.Location = new Point(4, 29);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1006, 782);
-            tabPage2.TabIndex = 7;
-            tabPage2.Text = "Quản lý thành viên";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.Location = new Point(331, 36);
-            label22.Name = "label22";
-            label22.Size = new Size(372, 47);
-            label22.TabIndex = 8;
-            label22.Text = "Quản lý thành viên";
-            label22.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Cyan;
-            button5.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.Location = new Point(749, 131);
-            button5.Name = "button5";
-            button5.Size = new Size(220, 62);
-            button5.TabIndex = 25;
-            button5.Text = "+ Thành viên";
-            button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.Cyan;
-            button6.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(749, 135);
-            button6.Name = "button6";
-            button6.Size = new Size(220, 62);
-            button6.TabIndex = 26;
-            button6.Text = "+ Thiết bị mới";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.Gainsboro;
-            panel2.Controls.Add(label23);
-            panel2.Controls.Add(button7);
-            panel2.Controls.Add(button8);
-            panel2.Controls.Add(textBox4);
-            panel2.Controls.Add(label24);
-            panel2.Controls.Add(label25);
-            panel2.Controls.Add(label26);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(570, 328);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(400, 370);
-            panel2.TabIndex = 24;
-            // 
-            // button7
-            // 
-            button7.BackColor = Color.Crimson;
-            button7.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.ForeColor = SystemColors.ControlLightLight;
-            button7.Location = new Point(243, 302);
-            button7.Name = "button7";
-            button7.Size = new Size(151, 42);
-            button7.TabIndex = 15;
-            button7.Text = "Khóa";
-            button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            button8.BackColor = Color.PaleGreen;
-            button8.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.Location = new Point(20, 302);
-            button8.Name = "button8";
-            button8.Size = new Size(151, 42);
-            button8.TabIndex = 14;
-            button8.Text = "Cập nhật";
-            button8.UseVisualStyleBackColor = false;
-            // 
-            // textBox4
-            // 
-            textBox4.BackColor = SystemColors.ControlLight;
-            textBox4.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.ForeColor = SystemColors.ActiveCaptionText;
-            textBox4.Location = new Point(142, 160);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.ReadOnly = true;
-            textBox4.Size = new Size(252, 54);
-            textBox4.TabIndex = 13;
-            textBox4.Text = "Địa chỉ: 273 Ương Dan Van, P5, Q3, TP.HCM";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Arial", 13F);
-            label25.Location = new Point(142, 61);
-            label25.Name = "label25";
-            label25.Size = new Size(181, 25);
-            label25.TabIndex = 10;
-            label25.Text = "Tên: Mei xinh gái ";
-            label25.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Font = new Font("Arial", 13F);
-            label26.Location = new Point(142, 30);
-            label26.Name = "label26";
-            label26.Size = new Size(91, 25);
-            label26.TabIndex = 9;
-            label26.Text = "Mã: 001";
-            label26.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(13, 30);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(120, 120);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Font = new Font("Arial", 20F);
-            label27.Location = new Point(600, 243);
-            label27.Name = "label27";
-            label27.Size = new Size(322, 39);
-            label27.TabIndex = 23;
-            label27.Text = "Thông tin thành viên";
-            label27.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // listView3
-            // 
-            listView3.Columns.AddRange(new ColumnHeader[] { columnHeader6, columnHeader7 });
-            listView3.Font = new Font("Arial", 13F, FontStyle.Bold);
-            listView3.Location = new Point(42, 328);
-            listView3.Name = "listView3";
-            listView3.Size = new Size(425, 370);
-            listView3.TabIndex = 22;
-            listView3.UseCompatibleStateImageBehavior = false;
-            listView3.View = View.Details;
-            // 
-            // columnHeader6
-            // 
-            columnHeader6.Text = "Mã thành viên";
-            columnHeader6.Width = 170;
-            // 
-            // columnHeader7
-            // 
-            columnHeader7.Text = "Tên thành viên";
-            columnHeader7.Width = 300;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Font = new Font("Arial", 20F);
-            label28.Location = new Point(87, 243);
-            label28.Name = "label28";
-            label28.Size = new Size(344, 39);
-            label28.TabIndex = 21;
-            label28.Text = "Danh sách thành viên";
-            label28.TextAlign = ContentAlignment.MiddleCenter;
-            label28.Click += label28_Click;
-            // 
-            // textBox5
-            // 
-            textBox5.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.Location = new Point(247, 131);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(260, 39);
-            textBox5.TabIndex = 19;
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Arial", 18F);
-            label30.Location = new Point(47, 135);
-            label30.Name = "label30";
-            label30.Size = new Size(154, 35);
-            label30.TabIndex = 17;
-            label30.Text = "Tìm kiếm: ";
-            label30.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Arial", 13F);
-            label24.Location = new Point(142, 94);
-            label24.Name = "label24";
-            label24.Size = new Size(227, 25);
-            label24.TabIndex = 11;
-            label24.Text = "Ngày sinh: 30/03/2005";
-            label24.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Font = new Font("Arial", 13F);
-            label23.Location = new Point(142, 125);
-            label23.Name = "label23";
-            label23.Size = new Size(84, 25);
-            label23.TabIndex = 16;
-            label23.Text = "Địa chỉ:";
-            label23.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // tabPage3
-            // 
-            tabPage3.Controls.Add(dateTimePicker1);
-            tabPage3.Controls.Add(panel3);
-            tabPage3.Controls.Add(label34);
-            tabPage3.Controls.Add(label33);
-            tabPage3.Controls.Add(listView4);
-            tabPage3.Controls.Add(label29);
-            tabPage3.Controls.Add(textBox6);
-            tabPage3.Controls.Add(label31);
-            tabPage3.Controls.Add(label32);
-            tabPage3.Location = new Point(4, 29);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(1006, 782);
-            tabPage3.TabIndex = 8;
-            tabPage3.Text = "Quản lý trả thiết bị";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // listView4
-            // 
-            listView4.Columns.AddRange(new ColumnHeader[] { columnHeader8, columnHeader9, columnHeader10 });
-            listView4.Font = new Font("Arial", 13F, FontStyle.Bold);
-            listView4.Location = new Point(19, 356);
-            listView4.Name = "listView4";
-            listView4.Size = new Size(504, 381);
-            listView4.TabIndex = 18;
-            listView4.UseCompatibleStateImageBehavior = false;
-            listView4.View = View.Details;
-            // 
-            // columnHeader8
-            // 
-            columnHeader8.Text = "Mã PM";
-            columnHeader8.Width = 100;
-            // 
-            // columnHeader9
-            // 
-            columnHeader9.Text = "Ngày mượn";
-            columnHeader9.Width = 150;
-            // 
-            // columnHeader10
-            // 
-            columnHeader10.Text = "Người mượn";
-            columnHeader10.Width = 250;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Arial", 20F);
-            label29.Location = new Point(97, 287);
-            label29.Name = "label29";
-            label29.Size = new Size(369, 39);
-            label29.TabIndex = 17;
-            label29.Text = "Danh sách phiếu mượn";
-            label29.TextAlign = ContentAlignment.MiddleCenter;
-            label29.Click += label29_Click;
-            // 
-            // textBox6
-            // 
-            textBox6.Font = new Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(219, 133);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(260, 39);
-            textBox6.TabIndex = 16;
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Font = new Font("Arial", 18F);
-            label31.Location = new Point(19, 211);
-            label31.Name = "label31";
-            label31.Size = new Size(184, 35);
-            label31.TabIndex = 15;
-            label31.Text = "Ngày mượn:";
-            label31.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Font = new Font("Arial", 18F);
-            label32.Location = new Point(19, 137);
-            label32.Name = "label32";
-            label32.Size = new Size(154, 35);
-            label32.TabIndex = 14;
-            label32.Text = "Tìm kiếm: ";
-            label32.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Font = new Font("Arial", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label33.Location = new Point(318, 49);
-            label33.Name = "label33";
-            label33.Size = new Size(363, 47);
-            label33.TabIndex = 19;
-            label33.Text = "Quản lý trả thiết bị";
-            label33.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Font = new Font("Arial", 20F);
-            label34.Location = new Point(676, 287);
-            label34.Name = "label34";
-            label34.Size = new Size(220, 39);
-            label34.TabIndex = 20;
-            label34.Text = "Chi tiết mượn";
-            label34.TextAlign = ContentAlignment.MiddleCenter;
-            label34.Click += label34_Click;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Gainsboro;
-            panel3.Controls.Add(listView5);
-            panel3.Controls.Add(label37);
-            panel3.Controls.Add(label35);
-            panel3.Controls.Add(button9);
-            panel3.Controls.Add(button10);
-            panel3.Controls.Add(label36);
-            panel3.Controls.Add(label38);
-            panel3.Location = new Point(563, 356);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(420, 381);
-            panel3.TabIndex = 25;
-            // 
-            // label35
-            // 
-            label35.AutoSize = true;
-            label35.Font = new Font("Arial", 13F);
-            label35.Location = new Point(16, 51);
-            label35.Name = "label35";
-            label35.Size = new Size(218, 25);
-            label35.TabIndex = 16;
-            label35.Text = "Mã người mượn: 002";
-            label35.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // button9
-            // 
-            button9.BackColor = Color.Crimson;
-            button9.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.ForeColor = SystemColors.ControlLightLight;
-            button9.Location = new Point(254, 320);
-            button9.Name = "button9";
-            button9.Size = new Size(151, 42);
-            button9.TabIndex = 15;
-            button9.Text = "Đóng";
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
-            // 
-            // button10
-            // 
-            button10.BackColor = Color.PaleGreen;
-            button10.Font = new Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(16, 320);
-            button10.Name = "button10";
-            button10.Size = new Size(175, 42);
-            button10.TabIndex = 14;
-            button10.Text = "Xác nhận trả";
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += button10_Click;
-            // 
-            // label36
-            // 
-            label36.AutoSize = true;
-            label36.Font = new Font("Arial", 13F);
-            label36.Location = new Point(142, 17);
-            label36.Name = "label36";
-            label36.Size = new Size(247, 25);
-            label36.TabIndex = 11;
-            label36.Text = "Ngày mượn: 30/03/2005";
-            label36.TextAlign = ContentAlignment.MiddleCenter;
-            label36.Click += label36_Click;
-            // 
-            // label38
-            // 
-            label38.AutoSize = true;
-            label38.Font = new Font("Arial", 13F);
-            label38.Location = new Point(16, 17);
-            label38.Name = "label38";
-            label38.Size = new Size(91, 25);
-            label38.TabIndex = 9;
-            label38.Text = "Mã: 001";
-            label38.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label37
-            // 
-            label37.AutoSize = true;
-            label37.Font = new Font("Arial", 13F);
-            label37.Location = new Point(16, 86);
-            label37.Name = "label37";
-            label37.Size = new Size(292, 25);
-            label37.TabIndex = 17;
-            label37.Text = "Tên người mượn: Ấy data dô";
-            label37.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // listView5
-            // 
-            listView5.Columns.AddRange(new ColumnHeader[] { columnHeader11, columnHeader12 });
-            listView5.Font = new Font("Arial", 11F, FontStyle.Bold);
-            listView5.Location = new Point(16, 126);
-            listView5.Name = "listView5";
-            listView5.Size = new Size(390, 190);
-            listView5.TabIndex = 26;
-            listView5.UseCompatibleStateImageBehavior = false;
-            listView5.View = View.Details;
-            // 
-            // columnHeader11
-            // 
-            columnHeader11.Text = "Mã TB";
-            columnHeader11.Width = 120;
-            // 
-            // columnHeader12
-            // 
-            columnHeader12.Text = "Tên thiết bị";
-            columnHeader12.Width = 265;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dateTimePicker1.Location = new Point(219, 211);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(409, 34);
-            dateTimePicker1.TabIndex = 26;
-            dateTimePicker1.UseWaitCursor = true;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.Gainsboro;
-            panel4.Controls.Add(textBox7);
-            panel4.Controls.Add(label39);
-            panel4.Controls.Add(label40);
-            panel4.Controls.Add(label41);
-            panel4.Controls.Add(label42);
-            panel4.Controls.Add(pictureBox3);
-            panel4.Location = new Point(621, 436);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(362, 313);
-            panel4.TabIndex = 15;
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = SystemColors.ControlLightLight;
-            textBox7.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox7.Location = new Point(13, 177);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.ReadOnly = true;
-            textBox7.Size = new Size(337, 107);
-            textBox7.TabIndex = 13;
-            textBox7.Text = "Sách là sách, không có gì ngoài sách.";
-            // 
-            // label39
-            // 
-            label39.AutoSize = true;
-            label39.Font = new Font("Arial", 13F);
-            label39.Location = new Point(142, 125);
-            label39.Name = "label39";
-            label39.Size = new Size(210, 25);
-            label39.TabIndex = 12;
-            label39.Text = "Tình trạng: Khả dụng";
-            label39.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label40
-            // 
-            label40.AutoSize = true;
-            label40.Font = new Font("Arial", 13F);
-            label40.Location = new Point(142, 94);
-            label40.Name = "label40";
-            label40.Size = new Size(188, 25);
-            label40.TabIndex = 11;
-            label40.Text = "Loại: Sách điện tử";
-            label40.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label41
-            // 
-            label41.AutoSize = true;
-            label41.Font = new Font("Arial", 13F);
-            label41.Location = new Point(142, 61);
-            label41.Name = "label41";
-            label41.Size = new Size(156, 25);
-            label41.TabIndex = 10;
-            label41.Text = "Tên: Sách Gây";
-            label41.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            label42.AutoSize = true;
-            label42.Font = new Font("Arial", 13F);
-            label42.Location = new Point(142, 30);
-            label42.Name = "label42";
-            label42.Size = new Size(91, 25);
-            label42.TabIndex = 9;
-            label42.Text = "Mã: 001";
-            label42.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.e9420e4b3ffb752eafd43b429f1ab447_1498730592;
-            pictureBox3.Location = new Point(13, 30);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(120, 120);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 0;
-            pictureBox3.TabStop = false;
-            // 
-            // label43
-            // 
-            label43.AutoSize = true;
-            label43.Font = new Font("Arial", 20F);
-            label43.Location = new Point(694, 351);
-            label43.Name = "label43";
-            label43.Size = new Size(225, 39);
-            label43.TabIndex = 14;
-            label43.Text = "Chi tiết thiết bị";
-            label43.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // button11
-            // 
-            button11.BackColor = Color.Cyan;
-            button11.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button11.Location = new Point(753, 137);
-            button11.Name = "button11";
-            button11.Size = new Size(220, 62);
-            button11.TabIndex = 17;
-            button11.Text = "Lập phíu mựn";
-            button11.UseVisualStyleBackColor = false;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -1187,8 +1188,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
             panel2.ResumeLayout(false);
@@ -1198,9 +1200,8 @@
             tabPage3.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }

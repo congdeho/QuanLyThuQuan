@@ -122,5 +122,11 @@ namespace QuanLyThuQuan
         {
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            AddLoanForm addLoanForm = new AddLoanForm();
+            addLoanForm.ShowDialog();
+        }
     }
 }
