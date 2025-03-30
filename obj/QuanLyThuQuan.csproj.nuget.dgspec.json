@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\QuanLyThuQuan\\QuanLyThuQuan.csproj": {}
+    "D:\\Study\\QuanLyThuQuan\\QuanLyThuQuan.csproj": {}
   },
   "projects": {
-    "C:\\QuanLyThuQuan\\QuanLyThuQuan.csproj": {
+    "D:\\Study\\QuanLyThuQuan\\QuanLyThuQuan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuanLyThuQuan\\QuanLyThuQuan.csproj",
+        "projectUniqueName": "D:\\Study\\QuanLyThuQuan\\QuanLyThuQuan.csproj",
         "projectName": "QuanLyThuQuan",
-        "projectPath": "C:\\QuanLyThuQuan\\QuanLyThuQuan.csproj",
-        "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
-        "outputPath": "C:\\QuanLyThuQuan\\obj\\",
+        "projectPath": "D:\\Study\\QuanLyThuQuan\\QuanLyThuQuan.csproj",
+        "packagesPath": "C:\\Users\\biedu\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\QuanLyThuQuan\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\trung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\biedu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
