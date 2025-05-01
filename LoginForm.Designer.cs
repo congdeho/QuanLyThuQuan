@@ -10,7 +10,7 @@
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true if managed resources should bae disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -53,7 +53,6 @@
             label2.Size = new Size(60, 15);
             label2.TabIndex = 1;
             label2.Text = "Password:";
-            label2.Click += label2_Click;
             // 
             // textBox1
             // 

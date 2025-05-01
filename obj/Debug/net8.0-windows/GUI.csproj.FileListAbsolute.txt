@@ -1,0 +1,15 @@
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.AddDeviceForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.AddLoanForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.AddMember.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.LoginForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.MainForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.RegisterForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\QuanLyThuQuan.UpdateDeviceForm.resources
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\congd\Source\Repos\QuanLyThuQuan\obj\Debug\net8.0-windows\GUI.sourcelink.json
